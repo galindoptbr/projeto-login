@@ -69,16 +69,42 @@ main {
 }
 
 form .campo {
-    background-color: #1C8394;
+    background-color: #A52502;
     width: 100%;
+    border: 2px solid #A52502;
     display: block;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+    
 }
 
 form label {
     display: none;
+}
+
+.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    background-color: #390D02;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    transform: translateY(-13px);
+    height: 100%;
+    border: 0px;
+    border-radius: 4px;
+    padding-left: 10px;
+
+}
+
+.campo > input:focus-within {
+    background-color: white;
+
 }
 
 .formulario > p {
