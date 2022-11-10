@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Paleta de Cores */
+
+/* Color Theme Swatches in Hex */
+.Squid-1-hex { color: #1C8394; }
+.Squid-2-hex { color: #154B52; }
+.Squid-3-hex { color: #000B0D; }
+.Squid-4-hex { color: #390D02; }
+.Squid-5-hex { color: #A52502; }
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
