@@ -40,22 +40,30 @@ Telas Grandes: Acima de 1200px
     body {
         background-image: linear-gradient(to top, black, #390D02);
     }
-    
+
     .login {
         width: 950px;
 
     }
 
     .login > .img {
-        float: left;
+        float: right;
         width: 50%;
         height: 100vh;
         
     }
 
     .login > .formulario {
-        float: right;
+        float: left;
         width: 50%;
 
+    }
+
+    .formulario > h1 {
+        font-size: 2em;
+    }
+
+    .formulario > p {
+        font-size: 1.2em;
     }
 }
